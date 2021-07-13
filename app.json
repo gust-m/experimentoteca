@@ -1,0 +1,12 @@
+{
+  "name": "experimentoteca",
+  "displayName": "experimentoteca",
+  "expo": {
+    "name": "experimentoteca",
+    "slug": "experimentoteca",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
