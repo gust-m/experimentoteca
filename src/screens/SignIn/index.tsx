@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigation } from '@react-navigation/native';
 
 import {
   Container,
@@ -16,6 +17,12 @@ import backgroundImg from '../../assets/background.png';
 import visiterIcon from '../../assets/visiterIcon.png';
 
 export const SignIn = () => {
+  const navigation = useNavigation();
+
+  const handleSignIn = () => {
+    navigation.navigate('Main');
+  };
+
   return (
     <Container>
       <Content>
@@ -32,7 +39,7 @@ export const SignIn = () => {
           <Text>aprender de uma forma diferente!</Text>
         </Subtitle>
 
-        <LoginButtonContainer>
+        <LoginButtonContainer onPress={handleSignIn} activeOpacity={0.7}>
           <ButtonIcon source={visiterIcon} />
           <VerticalLine />
           <Text>Entrar como visitante</Text>

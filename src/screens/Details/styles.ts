@@ -21,7 +21,6 @@ export const KitPhoto = styled.Image`
   width: ${RFPercentage(17.7)}px;
   height: ${RFPercentage(16.4)}px;
 
-  border: solid 1px #1b2565;
   border-radius: 8px;
 `;
 
@@ -32,12 +31,17 @@ export const Div = styled.View`
 
   margin-left: 35px;
   margin-top: 30px;
+
+  width: ${RFPercentage(26.7)}px;
 `;
 
 export const KitName = styled.Text`
   font-size: ${RFPercentage(4)}px;
   color: ${theme.colors.text};
   font-family: ${theme.fonts.title700};
+
+  display: flex;
+  text-align: center;
 `;
 
 export const KitIcon = styled.Image`

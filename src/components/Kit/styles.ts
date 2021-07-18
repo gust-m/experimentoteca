@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 import { RFPercentage } from 'react-native-responsive-fontsize';
 import { theme } from '../../global/styles/theme';
 
-export const Container = styled.View`
+export const Container = styled.TouchableOpacity`
   display: flex;
   flex-direction: row;
 

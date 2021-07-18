@@ -12,9 +12,7 @@ import {
   Rajdhani_700Bold,
 } from '@expo-google-fonts/rajdhani';
 
-import { SignIn } from './src/screens/SignIn';
-import { Main } from './src/screens/Main';
-import { Details } from './src/screens/Details';
+import { Routes } from './src/routes';
 
 const App = () => {
   const [fontsLoaded] = useFonts({
@@ -29,7 +27,7 @@ const App = () => {
     return <AppLoading />;
   }
 
-  return <Details />;
+  return <Routes />;
 };
 
 export default App;

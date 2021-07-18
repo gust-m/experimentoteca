@@ -1,7 +1,7 @@
 import { LinearGradient } from 'expo-linear-gradient';
 
 import styled from 'styled-components/native';
-import { RFPercentage, RFValue } from 'react-native-responsive-fontsize';
+import { RFPercentage } from 'react-native-responsive-fontsize';
 
 import { theme } from '../../global/styles/theme';
 
