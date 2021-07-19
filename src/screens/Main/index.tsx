@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { forHorizontalIOS } from '@react-navigation/stack/lib/typescript/src/TransitionConfigs/CardStyleInterpolators';
 import {
   Container,
+  KitContainer,
   KitList,
   Header,
   PhotoImage,
@@ -113,20 +115,22 @@ export const Main = () => {
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{ flexGrow: 1 }}
         >
-          {availableKits.map(kit => {
-            const { kitImg, subjectIcon } = findIconAndImgSubject(
-              kit.subjects,
-              kit.id,
-            );
-            return (
-              <Kit
-                kitData={kit}
-                key={kit.id}
-                kitImg={kitImg}
-                kitSubjectIcon={subjectIcon}
-              />
-            );
-          })}
+          <KitContainer>
+            {availableKits.map(kit => {
+              const { kitImg, subjectIcon } = findIconAndImgSubject(
+                kit.subjects,
+                kit.id,
+              );
+              return (
+                <Kit
+                  kitData={kit}
+                  key={kit.id}
+                  kitImg={kitImg}
+                  kitSubjectIcon={subjectIcon}
+                />
+              );
+            })}
+          </KitContainer>
         </KitList>
       </SafeAreaView>
     </Container>

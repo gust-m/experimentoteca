@@ -77,4 +77,20 @@ export const kits = [
     subjects: ['biology'],
     subjectsPT: ['Biologia'],
   },
+  {
+    id: 6,
+    name: 'Areia movediça',
+    video_url: '',
+    ingredients:
+      'Amido de milho, água, corante (opcional), um recipiente que pode ser desde um copo até uma bacia',
+    instructions: [
+      '1. Coloque os ingredientes na proporção de 2 copos de água para 1 de amido de milho. Se preferir, adicione algumas gotas de corante para deixar o líquido colorido.',
+      '2. Misture (cerca de 3 a 5 minutos) até a massa ficar uniforme.',
+      '3. Agora bata com o dedo indicador na mistura rapidamente, pode fazer esse procedimento mais de uma vez. Depois coloque o dedo indicador lentamente e tire.',
+    ],
+    explanation:
+      'Percebeu alguma diferença? Na verdade, essa uma mistura consiste em um sólido disperso num líquido, e quando a pressão é exercida sobre ela comporta-se como um sólido e, quando se deixa de exercer essa pressão, ela volta a ser como um líquido.',
+    subjects: ['biology'],
+    subjectsPT: ['Biologia'],
+  },
 ];

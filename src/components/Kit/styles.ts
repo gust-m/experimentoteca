@@ -10,7 +10,6 @@ export const Container = styled.TouchableOpacity`
   width: auto;
 
   margin-top: 26px;
-  flex: 1;
 `;
 
 export const PhotoKit = styled.Image`

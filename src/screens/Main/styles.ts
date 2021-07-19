@@ -15,9 +15,14 @@ export const Container = styled(LinearGradient).attrs({
   padding: 0 20px 60px 20px;
 `;
 
+export const KitContainer = styled.View`
+  height: 100%;
+  flex: 1;
+`;
+
 export const KitList = styled.ScrollView`
   width: ${RFPercentage(48.5)}px;
-  margin-bottom: 20px;
+  height: 100%;
 `;
 
 export const Header = styled.View`
