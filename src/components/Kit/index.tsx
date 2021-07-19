@@ -44,7 +44,7 @@ export const Kit = ({ kitData, kitImg, kitSubjectIcon }: kitDataObject) => {
         <Title>{name}</Title>
         <Content>
           <SubjectIcon source={kitSubjectIcon} />
-          <Subject>{subjectsPT}</Subject>
+          <Subject>{subjectsPT[0]}</Subject>
         </Content>
         <BottomLine />
       </Description>

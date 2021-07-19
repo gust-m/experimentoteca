@@ -73,7 +73,13 @@ export const Main = () => {
     if (word === '') {
       setAvailableKits(kits);
     }
-    const filteredKits = kits.filter(kit => kit.subjectsPT[0].includes(word));
+    const filteredKits = kits.filter(kit => {
+      const formattedWord = word.charAt(0).toUpperCase() + word.slice(1);
+      return (
+        kit.subjectsPT[0].includes(formattedWord) ||
+        kit.subjectsPT[1]?.includes(formattedWord)
+      );
+    });
     setAvailableKits(filteredKits);
     setKitsLength(filteredKits.length);
   };

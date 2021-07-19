@@ -13,7 +13,7 @@ export const kits = [
     explanation:
       'Você está brincando com a densidade dos líquidos. A mistura de corante com óleo é mais densa do que a água e, por isso, goteja para o fundo do pote. Mas em pouco tempo o corante começa a se misturar com a água, perdendo o contato com o óleo. Com isso, o óleo fica menos denso do que a água e flutua mais uma vez, voltando à superfície do pote.',
     subjects: ['chemical'],
-    subjectsPT: ['Química'],
+    subjectsPT: ['Química', 'Quimica'],
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const kits = [
     explanation:
       'Você acaba de montar um disco de Newton, feito para demonstrar que a cor branca é, na verdade, a soma de todas as cores do espectro luminoso. É por isso que, quando as cores se sobrepõem rapidamente, nossos olhos enxergam um grande círculo de cor branca.',
     subjects: ['physics'],
-    subjectsPT: ['Física'],
+    subjectsPT: ['Física', 'Fisica'],
   },
   {
     id: 3,
@@ -59,7 +59,7 @@ export const kits = [
     explanation:
       'O fermento biológico é composto por fungos que se alimentam de açúcares e gostam de ambientes quentes. Ao digerir o açúcar, eles produzem etanol e gás carbônico (CO2) – que flutua, enchendo a bexiga. Esse processo se chama fermentação.',
     subjects: ['chemical'],
-    subjectsPT: ['Química'],
+    subjectsPT: ['Química', 'Quimica'],
   },
   {
     id: 5,
