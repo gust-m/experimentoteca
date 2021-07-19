@@ -22,7 +22,7 @@ export const KitContainer = styled.View`
 
 export const KitList = styled.ScrollView`
   width: ${RFPercentage(48.5)}px;
-  height: 100%;
+  height: 75%;
 `;
 
 export const Header = styled.View`

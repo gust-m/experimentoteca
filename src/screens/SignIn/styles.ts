@@ -57,12 +57,12 @@ export const ButtonIcon = styled.Image`
   width: ${RFPercentage(3.7)}px;
   height: ${RFPercentage(3.7)}px;
   position: relative;
-  margin: 0 0 0 15px;
+  margin-left: 15px;
 `;
 
 export const VerticalLine = styled.Text`
   width: 1px;
   height: 100%;
-  margin: 0 20px;
+  margin: 0 15px;
   background: ${theme.colors.backgroundLinear};
 `;

@@ -111,10 +111,7 @@ export const Main = () => {
           <NumberOfKits>Total {kitsLength}</NumberOfKits>
         </Div>
 
-        <KitList
-          showsVerticalScrollIndicator={false}
-          contentContainerStyle={{ flexGrow: 1 }}
-        >
+        <KitList showsVerticalScrollIndicator={false}>
           <KitContainer>
             {availableKits.map(kit => {
               const { kitImg, subjectIcon } = findIconAndImgSubject(
