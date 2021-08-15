@@ -42,7 +42,7 @@ export const SignIn = () => {
         <LoginButtonContainer onPress={handleSignIn} activeOpacity={0.7}>
           <ButtonIcon source={visiterIcon} />
           <VerticalLine />
-          <Text>Entrar como visitante</Text>
+          <Text> Entrar como visitante</Text>
         </LoginButtonContainer>
       </Content>
     </Container>

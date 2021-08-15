@@ -25,7 +25,7 @@ import {
   BottomLine,
 } from './styles';
 
-import photoImg from '../../assets/photo.png';
+import photoImg from '../../assets/profile.png';
 import filter from '../../assets/filter.png';
 import upArrow from '../../assets/upArrow.png';
 
@@ -92,7 +92,7 @@ export const Main = () => {
           <Description>
             <TitleContainer>
               <Title>Olá, </Title>
-              <Name>Gustavo</Name>
+              <Name>Visitante</Name>
             </TitleContainer>
             <Subtitle>Hoje é dia de aprender!</Subtitle>
           </Description>
